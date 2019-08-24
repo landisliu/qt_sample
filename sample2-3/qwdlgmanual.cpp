@@ -49,7 +49,7 @@ void QWDlgManual::InitUI()
     txtEdit->setPlainText("Hello World\n\nThis is my demo!");
 
     QFont font = txtEdit->font();
-    font.setPointSize(20);
+    font.setPointSize(25);
     txtEdit->setFont(font);
 
     QVBoxLayout* vLayout = new QVBoxLayout;
